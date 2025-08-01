@@ -1,0 +1,14 @@
+# Requirements file for To-Do List Manager
+# This project uses only Python standard library modules
+# No external dependencies required
+
+# Standard library modules used:
+# - json (for data persistence)
+# - os (for file operations)
+# - datetime (for timestamps)
+# - typing (for type hints)
+
+# If you want to add additional features, you might consider:
+# colorama==0.4.6  # For cross-platform colored terminal output
+# rich==13.7.0     # For beautiful terminal formatting
+# click==8.1.7     # For advanced CLI functionality
