@@ -15,7 +15,7 @@ class Task:
     
     def __init__(self, title: str, description: str = "", category: str = "General", 
                  priority: str = "Medium", due_date: Optional[str] = None):
-        self.id = None  # Will be set by TodoList
+        self.id = None  
         self.title = title
         self.description = description
         self.category = category
@@ -164,7 +164,7 @@ class TodoList:
         if category:
             filtered_tasks = [task for task in filtered_tasks if task.category.lower() == category.lower()]
         
-        # Sort by completion status, then by priority, then by creation date
+        
         priority_order = {"High": 0, "Medium": 1, "Low": 2}
         filtered_tasks.sort(key=lambda t: (
             t.completed,

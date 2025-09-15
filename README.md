@@ -40,6 +40,7 @@ The application provides an interactive menu with the following options:
 ## Task Properties
 
 Each task can have:
+
 - **Title** (required) - Brief description of the task
 - **Description** (optional) - Detailed information about the task
 - **Category** (default: "General") - Organize tasks by type

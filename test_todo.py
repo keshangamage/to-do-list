@@ -75,7 +75,7 @@ def test_todolist_operations():
         # Test removing task
         assert todo.remove_task(2)
         assert len(todo.tasks) == 1
-        assert not todo.remove_task(999)  # Non-existent task
+        assert not todo.remove_task(999) 
         
         # Test statistics
         stats = todo.get_stats()
